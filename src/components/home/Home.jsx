@@ -5,10 +5,12 @@ import Product from '../products/Product';
 import Testi from '../testimonials/Testi';
 import Footer from '../testimonials/Footer';
 import home from '../../assect/home.png'
+import Navbar from './Navbar';
 export default function Home() {
   return (
-    <>
-      <div className=" container  flex  mt-2- mx-20  "   >
+    <> 
+    <Navbar/>
+      <div className=" container  flex  mt-16 mx-20  "   >
         <div className=" basis-2/4   ">
           <p className='text-slate-800 text-2xl '>
             Discover The Power OF  </p>

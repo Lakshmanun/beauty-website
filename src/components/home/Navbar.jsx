@@ -15,10 +15,11 @@ export default function Navbar() {
         </div>
         <div className=' '>
           <ul className={menu ? "flex-none mb-4   h-full w-2/5  uppercase  text-slate-950  left-0 top-0 bg-slate-100  px-6 py-6 absolute  border-y-2  " : "flex gap-4  text-gray-900 uppercase lg:flex sm:hidden "} onClick={() => setmenu(false)} >
-              <li className='text-gray-900 p-2 :'><Link to={'/'} > home </Link></li>
+              <li className='text-gray-900 p-2 :'><Link to={'/home'} > home </Link></li>
               <li className='text-gray-900 p-2 :'><Link to={'/product'} > product </Link></li>
               <li className='text-gray-900 p-2 :'><Link to={'/features'} > features </Link></li>
               <li className='text-gray-900 p-2 :'><Link to={'/aboutus'} > about us </Link></li>
+              <li className='text-gray-900 p-2 :'><Link to={'/'} > Log out </Link></li>
             
           </ul> 
         </div>
